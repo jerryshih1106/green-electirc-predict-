@@ -44,9 +44,9 @@ def output(date,path,Cpred,Gpred):
             data.append(text_data)
         if act == 1:
             if Gpred[i]>0:
-                text_data = [date+ " {:02d}".format(i)+":00:00", "sell", 2.8, Gpred[i]]#若能賣得比台電高就是賺
+                text_data = [date+ " {:02d}".format(i)+":00:00", "sell", 2.6, Gpred[i]]#若能賣得比台電高就是賺
                 data.append(text_data)
-            text_data1 = [date+ " {:02d}".format(i)+":00:00", "buy", 2.2, val]#比台電低的價格買缺少的電
+            text_data1 = [date+ " {:02d}".format(i)+":00:00", "buy", 2.3, val]#比台電低的價格買缺少的電
             
             data.append(text_data1)
         else:
