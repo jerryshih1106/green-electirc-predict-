@@ -4,7 +4,7 @@
 
 ### Pipenv <h3> 
 ```
-pipenv install --python3.8
+pipenv install
 ```
 ```
 pipenv shell
