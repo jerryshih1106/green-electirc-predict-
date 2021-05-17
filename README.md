@@ -9,10 +9,7 @@ pipenv install
 ```
 pipenv shell
 ```
-### Install <h3> 
-```
-pipenv install requests
-```
+
 ### Run the code <h3> 
 ```  
 pipenv run python main.py
